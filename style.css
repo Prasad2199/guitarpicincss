@@ -1,0 +1,119 @@
+body{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #F3AC3C;
+  }
+  
+  .container{
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .shadow_body{
+    background-color: #998235;
+    height: 180px;
+    width: 169px;
+    border-radius: 200px;
+    margin-right: -135px;
+    z-index: 1;
+  }
+  
+  .body_1{
+    background-color: #998235;
+    height: 155px;
+    width: 140px;
+    border-radius: 200px;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+  }
+  
+  .body_2{
+    background-color: #998235;
+    height: 150px;
+    width: 149px;
+    border-radius: 200px;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    margin-left: -60px;
+    justify-content: center;
+  }
+  
+  .d1{
+    background-color: #1A4341;
+    height: 50px;
+    width: 13px;
+    margin-left: 30px;
+    border-radius: 50px;
+  }
+  
+  .boca_sombra{
+    height: 70px;
+    width: 70px;
+    background-color: #F3AC3C;
+    border-radius: 1000px;
+    margin-right: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 54;
+  }
+  
+  .boca_item{
+    background-color: #1A4341;
+    width: 55px;
+    height: 55px;
+    border-radius: 100px;
+    z-index: 55;
+  }
+  
+  .frate{
+    background-color: #1A4341;
+    width: 180px;
+    height: 32px;
+    border-radius: 0px 0px 0px 0px;
+    z-index: 4;
+    display: flex;
+    justify-content: center;
+  }
+  
+  
+  
+  .d2{
+    background-color: #1A4341;
+    height: 32px;
+    width: 5px;
+  }
+  
+  .headstock{
+    background-color: #998235;
+    height: 53px;
+    width: 65px;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  
+  .mao_item{
+    height: 6px;
+    width: 32px;
+    border-radius: 50px;
+    background-color: #1A4341;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .mao_linha{
+    width: 100%;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+  }
+  
